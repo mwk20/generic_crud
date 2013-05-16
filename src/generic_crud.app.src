@@ -1,0 +1,16 @@
+%% -*-erlang-*-
+{application, generic_crud,
+ [
+  {description, "generic_crud"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { generic_crud_app, []}},
+  {env, []}
+ ]}.
